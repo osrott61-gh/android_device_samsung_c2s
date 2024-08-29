@@ -1,4 +1,4 @@
-# All unpinned blobs are from G981BXXSKHXEA
+# All unpinned blobs are from G988BXXSKHXEA
 # Vendor security patch level 2024-05-01
 
 # Audio (Dolby Atmos)
@@ -38,6 +38,7 @@ vendor/firmware/dual_cal_wide_tele.bin
 -product/priv-app/HotwordEnrollmentXGoogleEx3CORTEXM4/HotwordEnrollmentXGoogleEx3CORTEXM4.apk
 
 # Firmware
+vendor/firmware/a96t365_z3s_eur.bin
 vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin
 vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin
 vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin
@@ -46,10 +47,10 @@ vendor/firmware/cs40l20.bin
 vendor/firmware/is_lib.bin
 vendor/firmware/is_mcu_fw.bin
 vendor/firmware/is_rta.bin
-vendor/firmware/setfile_2la.bin
-vendor/firmware/setfile_2ld.bin
-vendor/firmware/setfile_3j1.bin
-vendor/firmware/setfile_gw2.bin
+vendor/firmware/setfile_2l3.bin
+vendor/firmware/setfile_gh1.bin
+vendor/firmware/setfile_hm1.bin
+vendor/firmware/setfile_imx586.bin
 
 # GPS/GNSS
 -vendor/lib64/libwrappergps.so

@@ -22,8 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/samsung/z3s/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+## Inherit some common derp stuff
+$(call inherit-product, vendor/derp/config/common_full_tablet.mk)
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_CALL_RECORDING := true
@@ -31,7 +31,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := z3s
-PRODUCT_NAME := aosp_z3s
+PRODUCT_NAME := derp_z3s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G988B
 PRODUCT_MANUFACTURER := samsung

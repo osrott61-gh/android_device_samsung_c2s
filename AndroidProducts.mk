@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_z3s.mk
+    $(LOCAL_DIR)/derp_z3s.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_z3s-user \
-    aosp_z3s-userdebug \
-    aosp_z3s-eng
+    derp_z3s-user \
+    derp_z3s-userdebug \
+    derp_z3s-eng

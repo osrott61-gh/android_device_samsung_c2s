@@ -31,7 +31,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := z3s
-PRODUCT_NAME := derp_z3s
+PRODUCT_NAME := lineage_z3s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G988B
 PRODUCT_MANUFACTURER := samsung

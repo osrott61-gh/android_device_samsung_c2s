@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_z3s.mk
+    $(LOCAL_DIR)/lineage_z3s.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_z3s-user \
-    derp_z3s-userdebug \
-    derp_z3s-eng
+    lineage_z3s-user \
+    lineage_z3s-userdebug \
+    lineage_z3s-eng

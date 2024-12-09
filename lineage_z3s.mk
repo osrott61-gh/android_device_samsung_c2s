@@ -22,8 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/samsung/z3s/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-## Inherit some common derp stuff
-$(call inherit-product, vendor/derp/config/common_full_tablet.mk)
+## Inherit some common Lineage stuff
+$(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_CALL_RECORDING := true

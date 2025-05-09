@@ -35,7 +35,7 @@ fi
 
 set -e
 
-export DEVICE=z3s
+export DEVICE=c2s
 export DEVICE_COMMON=universal9830-common
 export VENDOR=samsung
 

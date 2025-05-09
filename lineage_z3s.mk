@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Inherit from z3s device
-$(call inherit-product, device/samsung/z3s/device.mk)
+# Inherit from c2s device
+$(call inherit-product, device/samsung/c2s/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 ## Inherit some common Lineage stuff
@@ -30,19 +30,19 @@ TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := z3s
-PRODUCT_NAME := lineage_z3s
+PRODUCT_DEVICE := c2s
+PRODUCT_NAME := lineage_c2s
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G988B
+PRODUCT_MODEL := SM-N9868
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
-BuildDesc="z3sxx-user 11 RP1A.200720.012 G988BXXSADUH5 release-keys" \
-BuildFingerprint="samsung/z3sxx/z3s:11/RP1A.200720.012/G988BXXSADUH5:user/release-keys" \
-DeviceProduct=z3sxx
+BuildDesc="c2sxx-user 11 RP1A.200720.012 N986BXXSADUH5 release-keys" \
+BuildFingerprint="samsung/c2sxx/c2s:11/RP1A.200720.012/N986BXXSADUH5:user/release-keys" \
+DeviceProduct=c2sxx
 
 # Define PDA property for camera
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.build.PDA=G988BXXSADUH5
+    ro.build.PDA=N986BXXSADUH5
